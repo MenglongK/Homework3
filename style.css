@@ -79,9 +79,9 @@
     position: relative;
     width: 140px;
     height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
     margin-left: 15px;
   }
   .progress-ring {
