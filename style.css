@@ -3,7 +3,7 @@
   }
   .container {
     width: 400px;
-    background: #1b3351;
+    background-color: #103662;
     padding: 20px;
     border-radius: 10px;
     margin: auto;
@@ -53,6 +53,7 @@
       border: 2px solid rgb(0, 133, 177);
       height: fit-content;
       border-radius: 20px;
+      background-color: #1b3351;
   }
   .p-20{
       padding: 20px;
@@ -67,6 +68,39 @@
       align-items: center;
       text-align: center;
   }
+  .border-eye{
+    background-color: #3f5878;
+    border-radius: 100%;
+  }
+  .p-5{
+    padding: 5px;
+  }
+  /* .progress-ring{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+  }
+  .progress-ring-bg{
+    fill: none;
+    stroke-width: 10;
+  }
+  .progress-ring-blue{
+    fill: none;
+    stroke: rgb(47, 203, 255);
+    stroke-width: 10;
+    stroke-dasharray: 376.99;
+    stroke-dashoffset: 1480;
+    stroke-linecap: round;
+  }
+  .progress-ring-orange{
+    fill: none;
+    stroke: orange;
+    stroke-width: 10;
+    stroke-dasharray: 376.99;
+    stroke-dashoffset: -18;
+    stroke-linecap: round;
+  } */
   .text-lightblue{
       color: rgb(47, 203, 255);
   }
@@ -74,6 +108,7 @@
       font-size: 20px;
       color: orange;
       text-align: center;
+      padding-right: 3px;
   }
   .usd{
       font-size: 15px;
@@ -86,7 +121,7 @@
   .pl-3{
       padding-left: 3px;
   }
-  .pt-20{
+  .pt-10{
     padding-top: 10px;
   }
   .text-24{
@@ -123,12 +158,14 @@
     width: 200px;
     height: fit-content;
     border-radius: 20px;
+    background-color: #1b3351;
   }
   .border-detail{
     border: 2px solid rgb(0, 133, 177);
     width: 120px;
     height: 110px;
     border-radius: 20px;
+    background-color: #1b3351;
   }
   .text-center{
     text-align: center;
@@ -139,5 +176,9 @@
   .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .blur{
+    color: whitesmoke;
+    filter: blur(4px);
   }
   
