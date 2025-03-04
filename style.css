@@ -53,12 +53,12 @@
       border: 2px solid rgb(0, 133, 177);
       height: fit-content;
       border-radius: 20px;
-      background-color: #1b3351;
+      background-color: #162a43;
   }
   .p-20{
       padding: 20px;
   }
-  .border-circle{
+  /* .border-circle{
       width: 100px;
       height: 100px;
       border: 5px solid rgb(47, 203, 255);
@@ -67,7 +67,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-  }
+  } */
   .border-eye{
     background-color: #3f5878;
     border-radius: 100%;
@@ -75,51 +75,60 @@
   .p-5{
     padding: 5px;
   }
-  /* .progress-ring{
+  .progress-container {
+    position: relative;
+    width: 140px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+  }
+  .progress-ring {
     position: absolute;
     top: 0;
     left: 0;
     transform: rotate(-90deg);
   }
-  .progress-ring-bg{
+  .progress-ring-bg {
     fill: none;
     stroke-width: 10;
   }
-  .progress-ring-blue{
+  .progress-ring-progress {
     fill: none;
-    stroke: rgb(47, 203, 255);
-    stroke-width: 10;
-    stroke-dasharray: 376.99;
+    stroke: #1ea9ff;
+    stroke-width: 8;
+    stroke-dasharray: 326 57;
     stroke-dashoffset: 1480;
     stroke-linecap: round;
   }
-  .progress-ring-orange{
+  .progress-ring-accent {
     fill: none;
-    stroke: orange;
-    stroke-width: 10;
-    stroke-dasharray: 376.99;
+    stroke: #c49a3b;
+    stroke-width: 8;
+    stroke-dasharray: 15 376.99;
     stroke-dashoffset: -18;
     stroke-linecap: round;
-  } */
+  }
   .text-lightblue{
       color: rgb(47, 203, 255);
   }
   .riels{
-      font-size: 20px;
+      font-size: 30px;
       color: orange;
       text-align: center;
       padding-right: 3px;
   }
   .usd{
-      font-size: 15px;
+      font-size: 23px;
       color: rgb(47, 203, 255);
       text-align: center;
   }
   .text-end{
       text-align: end;
   }
-  .pl-3{
-      padding-left: 3px;
+  .pl-1{
+      padding-left: 1px;
   }
   .pt-10{
     padding-top: 10px;
@@ -158,14 +167,14 @@
     width: 200px;
     height: fit-content;
     border-radius: 20px;
-    background-color: #1b3351;
+    background-color: #162a43;
   }
   .border-detail{
     border: 2px solid rgb(0, 133, 177);
     width: 120px;
     height: 110px;
     border-radius: 20px;
-    background-color: #1b3351;
+    background-color: #162a43;
   }
   .text-center{
     text-align: center;
@@ -179,6 +188,7 @@
   }
   .blur{
     color: whitesmoke;
+    font-size: 24px;
     filter: blur(4px);
   }
   
