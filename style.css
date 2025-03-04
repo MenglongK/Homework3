@@ -169,12 +169,20 @@
     border-radius: 20px;
     background-color: #162a43;
   }
+  .border-p-t:hover{
+    scale: calc(1.1);
+    transition: 0.8s;
+  }
   .border-detail{
     border: 2px solid rgb(0, 133, 177);
     width: 120px;
     height: 110px;
     border-radius: 20px;
     background-color: #162a43;
+  }
+  .border-detail:hover{
+    scale: calc(1.1);
+    transition: 0.8s;
   }
   .text-center{
     text-align: center;
